@@ -8,7 +8,7 @@ eureka:
 
 spring:
   zipkin:
-    base-url: http://192.168.200.131:9411/
+    base-url: http://192.168.200.136:9411/
     sleuth:
       sampler:
         probability: 1
