@@ -24,4 +24,4 @@ management:
       exposure:
         include: "*"
 
-env: test2021
+env: test2022
