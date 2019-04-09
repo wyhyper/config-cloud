@@ -9,11 +9,11 @@ eureka:
 spring:
   redis:
     database: 0
-    host: 192.168.200.135
+    host: 192.168.200.136
     port: 6379
     timeout: 1000
   zipkin:
-    base-url: http://192.168.200.135:9411/
+    base-url: http://192.168.200.136:9411/
   sleuth:
     sampler:
       probability: 1
