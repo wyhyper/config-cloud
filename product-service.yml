@@ -13,4 +13,4 @@ spring:
       sampler:
         probability: 1
 
-env: test2019
+env: test2020
