@@ -1,14 +1,6 @@
 server:
   port: 8771
 
-eureka:
-  client:
-    service-url:
-      defaultZone: http://172.19.41.42:8761/eureka/
-  instance:
-    instance-id: ${spring.cloud.client.ip-address}:${server.port}
-    prefer-ip-address: true
-
 spring:
   zipkin:
     base-url: http://172.19.41.42:9411/
