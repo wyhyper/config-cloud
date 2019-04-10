@@ -4,21 +4,21 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://172.19.41.42:8761/eureka/
 
 spring:
   rabbitmq:
-    host: 192.168.200.136
+    host: 172.19.41.42
     port: 5672
     username: guest
     password: guest
   redis:
     database: 0
-    host: 192.168.200.136
+    host: 172.19.41.42
     port: 6379
     timeout: 1000
   zipkin:
-    base-url: http://192.168.200.136:9411/
+    base-url: http://172.19.41.42:9411/
   sleuth:
     sampler:
       probability: 1
