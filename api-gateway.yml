@@ -8,14 +8,6 @@ spring:
     username: guest
     password: guest
 
-eureka:
-  client:
-    service-url:
-      defaultZone: http://172.19.41.42:8761/eureka/
-  instance:
-    instance-id: ${spring.cloud.client.ip-address}:${server.port}
-    prefer-ip-address: true
-
 zuul:
   routes:
     order-service: /order/**
